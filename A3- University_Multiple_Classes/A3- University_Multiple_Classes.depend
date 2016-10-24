@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1397718942 source:e:\users\jordan\documents\computer programming\a3- university_multiple_classes\course.c
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	"Course.h"
+
+1397718958 e:\users\jordan\documents\computer programming\a3- university_multiple_classes\course.h
+	<string>
+	<iostream>
+
+1397704422 source:e:\users\jordan\documents\computer programming\a3- university_multiple_classes\department.c
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	"Department.h"
+
+1397704424 e:\users\jordan\documents\computer programming\a3- university_multiple_classes\department.h
+	<string>
+	<iostream>
+	<vector>
+	<fstream>
+
+1397705158 source:e:\users\jordan\documents\computer programming\a3- university_multiple_classes\faculty.c
+	"Person.h"
+	"Faculty.h"
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+
+1397705452 e:\users\jordan\documents\computer programming\a3- university_multiple_classes\person.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+
+1397705160 e:\users\jordan\documents\computer programming\a3- university_multiple_classes\faculty.h
+	<string>
+	<iostream>
+	<vector>
+	"Person.h"
+
+1397704466 source:e:\users\jordan\documents\computer programming\a3- university_multiple_classes\main.c
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	"University.h"
+
+1397704422 e:\users\jordan\documents\computer programming\a3- university_multiple_classes\university.h
+	<string>
+	<vector>
+	<fstream>
+	<iostream>
+	"Department.h"
+	"Course.h"
+	"Person.h"
+	"Faculty.h"
+	"Student.h"
+
+1397705264 e:\users\jordan\documents\computer programming\a3- university_multiple_classes\student.h
+	<string>
+	<iostream>
+	<vector>
+	"Course.h"
+	"Person.h"
+
+1397705454 source:e:\users\jordan\documents\computer programming\a3- university_multiple_classes\person.c
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	"Person.h"
+
+1397705356 source:e:\users\jordan\documents\computer programming\a3- university_multiple_classes\student.c
+	"Person.h"
+	"Student.h"
+	"Course.h"
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+
+1397704426 source:e:\users\jordan\documents\computer programming\a3- university_multiple_classes\university.c
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	"University.h"
+

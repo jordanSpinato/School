@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1395635434 source:e:\users\jordan\documents\computer programming\a2-dictionary\assignment2.c
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"assignment2.h"
+
+1395635446 e:\users\jordan\documents\computer programming\a2-dictionary\assignment2.h
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+
+1395337256 source:e:\users\jordan\documents\computer programming\a2-dictionary\main.c
+	"assignment2.h"
+

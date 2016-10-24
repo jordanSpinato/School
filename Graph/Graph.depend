@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1416294016 source:e:\users\jordan\documents\computer programming\graph\client.cpp
+	<iostream>
+	<string>
+	"dgraph.h"
+
+1415854792 e:\users\jordan\documents\computer programming\graph\dgraph.h
+	<iostream>
+	<string>
+	"sListHW6.h"
+
+1415837178 e:\users\jordan\documents\computer programming\graph\slisthw6.h
+	"LLHW6.h"
+
+1415836953 e:\users\jordan\documents\computer programming\graph\llhw6.h
+	<stdio.h>
+	<string>
+	<iostream>
+	<vector>
+
+1416294141 source:e:\users\jordan\documents\computer programming\graph\dgraph.cpp
+	<fstream>
+	<string>
+	<iostream>
+	"dgraph.h"
+
+1415850891 source:e:\users\jordan\documents\computer programming\graph\llhw6.cpp
+	"LLHW6.h"
+	<string>
+	<iostream>
+	<vector>
+
+1415841896 source:e:\users\jordan\documents\computer programming\graph\slisthw6.cpp
+	"sListHW6.h"
+	<iostream>
+	<string>
+

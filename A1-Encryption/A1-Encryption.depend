@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1455315563 source:e:\users\jordan\documents\computer programming\a1-encryption\sourcecodeencrypt.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<iomanip>
+

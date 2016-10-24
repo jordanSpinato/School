@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1455314406 source:e:\users\jordan\documents\-----computer programming-----\linkedlist\linkedlist.cpp
+	"linkedList.h"
+	<string>
+	<iostream>
+	<vector>
+
+1455313219 e:\users\jordan\documents\-----computer programming-----\linkedlist\linkedlist.h
+	<stdio.h>
+	<string>
+	<iostream>
+	<vector>
+
+1456259197 source:e:\users\jordan\documents\-----computer programming-----\linkedlist\linkedlistclient.cpp
+	<stdio.h>
+	"linkedList.h"
+	<iostream>
+
