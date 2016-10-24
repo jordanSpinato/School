@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+#include "Person.h"
+
+
+void Person :: setPerson(long ss, string fname, string lname, int ag, char gend)
+{
+  ssn = ss;
+  firstName = fname;
+  lastName = lname;
+  age = ag;
+  gender = gend;
+
+  return;
+
+}
+
+
+void Person :: printPerson()
+{
+  cout << "SSN: " << ssn << endl;
+  cout << "Name: " << firstName << "\t" << lastName << endl;
+  cout << "Age: " << age << endl;
+  cout << "Gender: " << gender << endl;
+
+  return;
+
+}

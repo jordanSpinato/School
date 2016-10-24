@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+
+#include "Course.h"
+
+
+
+using namespace std;
+
+
+
+void Course :: setCourse(string courseNam, long courseNum)
+{
+  courseName = courseNam;  
+  courseNumber = courseNum;
+  
+
+  return;
+}
+
+void Course ::printCourse()
+{
+  cout << courseName << "\t" << courseNumber << endl;
+  return;
+}
+

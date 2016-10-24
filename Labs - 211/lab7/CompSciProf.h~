@@ -1,0 +1,12 @@
+class CompSciProf
+{
+ protected:
+  string name;
+  string email;
+  long facultyId;
+  
+  
+ public:
+
+
+}

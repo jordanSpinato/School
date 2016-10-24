@@ -1,0 +1,55 @@
+/* Jordan Spinato
+Assignment 4B
+October 14
+*/
+
+
+/* calculate the balance of a credit card
+ case with 2 options
+1) enter a credit or payment to a credit card
+2) enter a debit or purchase
+
+
+
+
+*/
+
+#include <iostream>
+using namespace std;
+int option = 0;
+
+
+void credit ();
+{
+
+
+  cout << "Welcome to your credit card calculator"<<endl;
+
+    
+    while (cont== 'y' || cont=='Y' )
+      {
+	cout << "1) Enter a credit or payment to credit card \n2) Enter a debit or purchase" <<endl;
+	cin >> option;
+
+	
+
+
+
+
+  return;
+
+}
+
+
+
+
+
+int main ()
+{
+
+
+  credit();
+
+  return 0;
+
+}

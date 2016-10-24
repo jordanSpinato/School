@@ -1,0 +1,24 @@
+#ifndef STUDENTCOLLECTION_H
+#define STUDENTCOLLECTION_H
+
+using namespace std;
+
+
+class StudentCollection
+{
+ private:
+  StudentProfile newProfile;
+
+ public:
+  void getInfo();
+
+};
+
+
+
+
+
+
+
+
+#endif

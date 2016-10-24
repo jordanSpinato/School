@@ -1,0 +1,29 @@
+123456
+John
+smith
+19
+M
+5181476
+Econ 101
+Math 110
+Span 101
+
+654321
+Will
+Johnson
+21
+M
+001307264
+CS 211
+Bus 302
+MGMT 306
+
+19283754
+Veronica
+Ferrel
+22
+F
+800619843
+CS 311
+MKTG 302
+FIN 302

@@ -1,0 +1,23 @@
+/*
+ * Jordan Spinato
+ * CS 111
+ * Ex. 8 Page 313
+ * 11-3-2013
+ */
+
+
+#include <iostream>
+using namespace std;
+
+
+
+int main()
+{
+  
+
+
+
+
+  return 0;
+
+}

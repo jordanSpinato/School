@@ -1,0 +1,132 @@
+/*
+* Jordan Spinato
+* Lab 1-2
+* Same as lab 1-1 Only using pass by value instead of pass by reference
+ */
+
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+using namespace std;
+
+
+int calcMax(int,int,int);
+int calcMin(int,int,int);
+double calcAvg(int,int,int);
+
+
+int main()
+{
+  int studentid = 0;
+  int a1 = 0;
+  int a2 = 0;
+  int a3 = 0;
+  double avg = 0;
+  int min = 0;
+  int max = 0;
+  int line = 0;
+
+  ifstream inputFile;
+
+  inputFile.open("numbers1.txt");
+
+  if(inputFile.fail())
+    cout<< "The file does not exist" << endl;
+
+  else
+    {
+	  cout <<"The file exists "<<endl;
+
+	  // header for output
+	  cout << "Std-ID" << std::setfill(' ') << std::setw(6);
+	  cout << "A1" << std::setfill(' ') << std::setw(3);
+	  cout << "A2" << std::setfill(' ') << std::setw(3);
+	  cout << "A3" << std::setfill(' ') << std::setw(5);
+	  cout << "Min" << std::setfill(' ') << std::setw(5);
+	  cout << "Max" << std::setfill(' ') << std::setw(8);
+	  cout << "Average" << std::setfill(' ') << std::setw(10);
+	  cout <<  std::setfill('-') << std::setw(37) << endl;
+
+	  cout << "\n";
+
+
+	  while(!inputFile.eof())
+	    {
+	      // save input from txt file into variables
+	      inputFile >> studentid;
+	      inputFile >> a1;
+	      inputFile >> a2;
+	      inputFile >> a3;
+	      line++;
+
+	      max = calcMax(a1,a2,a3);
+	      min = calcMin(a1,a2,a3);
+	      avg = calcAvg(a1,a2,a3);
+
+	      // second half of output
+	      // ********************************************
+	      cout << studentid << std::setfill(' ') << std::setw(6);
+	      cout << a1 << std::setfill(' ') << std::setw(3);
+	      cout << a2 << std::setfill(' ') << std::setw(3);
+	      cout << a3 << std::setfill(' ') << std::setw(5);
+	      cout << min << std::setfill(' ') << std::setw(5);
+	      cout << max << std::setfill(' ') << std::setw(8);
+	      cout << avg << std::setfill(' ') << std::setw(10);//*************
+	      cout << "\n";
+
+	    }// end while
+
+	}// end else
+
+
+  return 0;
+}// end main
+
+
+
+int calcMax(int a1, int a2, int a3)
+{
+  int max = 0;
+  if (a1 > a2 && a1 > a3)
+    max = a1;
+  else if ( a2 > a3 && a2 > a1)
+    max = a2;
+  else
+    max = a3;
+
+  return max;
+
+}// end calcMax function
+
+
+
+int calcMin(int a1, int a2, int a3)
+{
+  int min= 0;
+if (a1 < a2 && a1 < a3)
+  min = a1;
+ else if (a2 < a3 && a2 < a1 )
+   min = a2;
+ else
+   min = a3;
+
+return min;
+
+}// end calcMin function
+
+double calcAvg(int a1, int a2, int a3)
+
+{
+
+  int total=0;
+  double avg = 0;
+
+
+total = a1 + a2 + a3;
+avg = total / 3.0;
+avg *= 1.0;
+
+return avg;
+
+}// end calcAvg function
+

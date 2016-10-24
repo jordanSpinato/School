@@ -1,0 +1,46 @@
+/** Jordan Spinato
+September 21
+Homework # 3
+Page 113 #7
+
+Distance formula program
+*/
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+void distance()
+{
+  // distance formula sqrt ( ( x2-x1)^2 + (y2-y1)^2
+
+  // declare varibles
+  double x1 = 0.0;
+  double x2 = 0.0;
+  double y1 = 0.0;
+  double y2 = 0.0;
+  double distancex = 0.0;
+  double distancey = 0.0;
+  double distance = 0.0;
+
+  // get user input
+  cout << "This program calculates the distance beween two points (x1,y1) and (x2,yx)"<< endl;
+
+  cout << "Please enter the following values \nx1: ";
+  cin >> x1;
+
+  cout << "\ny1: ";
+  cin >> y1
+
+  cout << "\nx2: ";
+  cin >> x2;
+
+  cout << "\ny2: ";
+  cin >> y2;
+
+  // do calculation for distance formula
+  
+
+
+

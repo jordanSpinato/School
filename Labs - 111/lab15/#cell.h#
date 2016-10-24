@@ -1,0 +1,33 @@
+#include <iostream>
+#include<string>
+
+using namespace std;
+
+
+string colors[]= {"red", "blue","green","black"};
+
+class Cell
+{
+ private:
+  string carrier;
+  string phoneNumber;
+  int cellColor;
+
+ public:
+  // constructor
+  Cell();
+  Cell(string, string, int);
+  
+  // setters
+  void setNumber(string phoneNumber);
+  void setCarrier(string carrierName);
+  void changeColor();
+  
+  // getters
+  string getColor();
+  string getNumber();
+  string getCarrier();
+
+
+
+};

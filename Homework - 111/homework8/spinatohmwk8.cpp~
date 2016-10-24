@@ -1,0 +1,28 @@
+/*
+ * Jordan Spinato
+ * Homework 8
+ * 11-24-2013
+*/
+
+// class clock
+
+using namespace std;
+#include <iostream>
+
+
+class Clock
+{
+
+
+private:
+  int hour;
+  int minute;
+  int second;
+
+
+public:
+  Clock();
+  void  setTime();
+  void showTime();
+};
+

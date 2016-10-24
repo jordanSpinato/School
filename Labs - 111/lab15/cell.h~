@@ -1,0 +1,31 @@
+#include <iostream>
+#include<string>
+
+using namespace std;
+
+
+
+class Cell
+{
+ private:
+  string carrier;
+  string phoneNumber;
+  int cellColor;
+
+ public:
+  // constructor
+  Cell();
+  Cell(string, string, int);
+  // setters
+  void setNumber(string phoneNumber);
+  void setCarrier(string carrierName);
+  void incrementColor();
+  void changeColor();
+  // getters
+  string getColor() const;
+  string getNumber() const;
+  string getCarrier() const;
+
+
+
+};

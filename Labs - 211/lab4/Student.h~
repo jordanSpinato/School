@@ -1,0 +1,29 @@
+#ifndef STUDENT_H
+#define STUDENT_H
+
+
+#include "Course.h"
+
+using namespace std;
+
+class Student
+{
+ private:
+  long studentNumber;
+  Course setCourse1;
+  Course setCourse2;
+  Course setCourse3;
+
+ public:
+  void setStudent(long, string, int, string, int, string, int);
+  void printStudentNumber();
+
+};
+
+
+
+
+
+
+
+#endif

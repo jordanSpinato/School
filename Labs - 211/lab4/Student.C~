@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+#include "Student.h"
+
+
+void Student :: setStudentNumber(long studentNum)
+{
+  studentNumber = studentNum;
+
+  return;
+
+}
+
+
+void Student :: printStudentNumber()
+{
+  cout << "Student Number: " << studentNumber;
+
+  return;
+}
+

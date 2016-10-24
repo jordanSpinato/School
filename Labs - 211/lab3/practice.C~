@@ -1,0 +1,103 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+
+
+
+//---------------------------------------
+class Course
+{
+public:
+  int courseNumber;
+  string courseName;
+};
+
+//---------------------------------------------
+class Student
+{
+public:
+  int studentNumber;
+  Course course1; // derrived obj
+  Course course2; // derrived obj
+  Course course3; // derrived obj
+
+};
+
+//------------------------------------------
+class Person
+{
+   public:
+
+  
+  long ssn;
+  string fname; 
+  string lname;
+  int age;
+  char gender;
+  
+};
+
+
+
+//------------------------------
+class StudentProfile
+{
+public:
+  Person PersonInfo;
+  Student StudentInfo;
+  
+};
+
+class StudentCollection
+{
+public:
+  vector <StudentProfile> studentCollection;
+  
+  void getInformation();
+  void printInformation();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//---------------------------------------------
+int main()
+{
+  StudentCollection studentCollect;
+  studentCollect.getInformation();
+  studentCollect.printInformation();
+  
+  return 0;
+
+}

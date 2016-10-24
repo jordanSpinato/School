@@ -1,0 +1,30 @@
+/*
+ * Jordan Spinato
+ * CS 111
+ * Exercise 6a page 312
+ * 11-3-2013
+*/
+
+
+#include <iostream>
+using namespace std;
+
+// declaration in main to store the string vacation is near in an array named MESSAGE.  there should be a function call to display that acceps message ina parameter named strng and then display the message
+
+
+
+
+
+
+
+
+int main()
+{
+
+  string message[]={"Vacation is near"};
+
+
+
+
+  return 0;
+}

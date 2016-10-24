@@ -1,0 +1,82 @@
+#ifndef MAIN_C
+#define MAIN_C
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+
+#include "StudentProfile.h"
+
+using namespace std;
+
+
+
+void getInfo(vector <StudentProfile>&);
+void printInfo(vector <StudentProfile>&);
+int main()
+
+{
+
+  vector <StudentProfile> collection;
+  getInfo(collection);
+  printInfo(collection);
+
+  return 0;
+}
+
+
+void getInfo(vector <StudentProfile>& studentCollection)
+{
+  
+  StudentProfile newStudent;
+
+  ifstream fin;
+  fin.open("data.txt");
+
+  long ssn;
+  string fname;
+  string lname;
+  int age;
+  char gender;
+  long studentNum;
+  string courseName1;
+  long courseNum1;
+  string courseName2;
+  long courseNum2;
+  string courseName3;
+  long courseNum3;
+
+    while (!fin.eof())
+      {
+	fin >> ssn; 
+	fin >> fname;
+	fin>> lname ;
+	fin >> age;
+	fin >> gender;
+	fin >> studentNum;
+	fin >> courseName1;
+	fin >> courseNum1;
+	fin >> courseName2;
+	fin >> courseNum2;
+	fin >> courseName3;
+	fin >> courseNum3;
+
+	newStudent.setPerson.setPerson(ssn, fname, lname, age, gender);
+
+
+	studentCollection.push_back(newStudent);
+
+      }// end while
+
+  return;
+}// end function
+
+
+
+
+
+
+
+
+#endif

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1391298324 source:e:\users\jordan\documents\computer programming\lab 1\1-3hp.c
+	<iostream>
+	<iomanip>
+	<fstream>
+
+1391298330 source:e:\users\jordan\documents\computer programming\lab 1\lab1-1.c
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1391298328 source:e:\users\jordan\documents\computer programming\lab 1\lab1-2.c
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1455316261 source:e:\users\jordan\documents\computer programming\lab 1\lab1-3.c
+	<iostream>
+	<iomanip>
+	<fstream>
+

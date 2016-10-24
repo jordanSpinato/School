@@ -1,0 +1,36 @@
+#include <iostream>
+#include"cellFunc.cpp"
+
+using namespace std;
+
+int main()
+{
+
+  Cell cellObj1, cellObj2;
+
+  cellObj1.setNumber("8587353516");
+  cellObj1.setCarrier("verizon");
+  
+  cout <<"Phone Number: "<< cellObj1.getNumber()<<endl;
+  cout <<"Phone Carrier: " << cellObj1.getCarrier()<<endl;
+  cout <<"Phone Color:"<< cellObj1.getColor()<<endl;
+  
+  cellObj2("sprint","8587351116",0);
+  cout <<"Phone Number: "<< cellObj2.getNumber()<<endl;
+  cout <<"Phone Carrier: " << cellObj2.getCarrier()<<endl;
+  cout <<"Phone Color:"<< cellObj2.getColor()<<endl;
+
+
+  cout <<endl<<endl;
+  for (int i=0; i<4; i++)
+    {
+      
+  cellObj1.changeColor();
+  cout << "Phone color now changed to: "<<cellObj1.getColor()<<endl;
+    }
+  
+
+
+
+  return 0;
+}

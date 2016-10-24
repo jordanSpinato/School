@@ -1,0 +1,47 @@
+#ifndef MAIN_C
+#define MAIN_C
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+
+#include "StudentProfile.h"
+
+using namespace std;
+
+
+
+void getInfo(vector <StudentProfile>&);
+void printInfo(vector <StudentProfile>&);
+int main()
+
+{
+
+  vector <StudentProfile> collection;
+  getInfo(collection);
+  printInfo(collection);
+
+  return 0;
+}
+
+
+void getInfo(vector <StudentProfile>& studentCollection)
+{
+  
+  StudentProfile newStudent;
+
+ 
+      }// end while
+
+  return;
+}// end function
+
+
+
+
+
+
+
+
+#endif

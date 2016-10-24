@@ -1,0 +1,37 @@
+#include <iostream>
+#include <iomanip>
+#include <fstream>
+
+using namespace std;
+
+
+
+
+int main()
+{
+
+  fstream input;
+
+  input.open("num1-3.txt")
+
+     if (input.fail())
+       cout << "Failed to open file";
+     else
+       {
+	 cout << "Valid File";	 
+
+
+       }
+
+
+
+  input.close();
+
+  return 0;
+}// end main
+       
+
+
+
+
+

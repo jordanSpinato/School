@@ -1,0 +1,56 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+#include "StudentProfile.h"
+
+using namespace std;
+
+
+void getInfo()
+{
+
+  vector <StudentProfile> collection;
+  
+  ifstream fin;
+  fin.open("data.txt");
+
+  long ssn;
+  string fname;
+  string lname;
+  int age;
+  char gender;
+  long studentNum;
+  string courseName1;
+  long courseNum1;
+  string courseName2;
+  long courseNum2;
+  string courseName3;
+  long courseNum3;
+
+  while (!fin.eof())
+    {
+      fin >> ssn; 
+      fin >> fname;
+      fin>> lname ;
+      fin >> age;
+      fin >> gender;
+      fin >> studentNum;
+      fin >> courseName1;
+      fin >> courseNum1;
+      fin >> courseName2;
+      fin >> courseNum2;
+      fin >> courseName3;
+      fin >> courseNum3;
+      
+      //set person is private need to access it       
+      newProfile.setInfo(ssn, fname, lname, age, gender, studentNum, courseName1, courseNum1, courseName2, courseNum2, courseName3, courseNum3);
+      
+      
+      collection.push_back(newProfile);
+      
+    }// end while
+  
+  
+  return;
+}// end get info function

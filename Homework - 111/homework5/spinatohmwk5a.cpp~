@@ -1,0 +1,20 @@
+/*
+Jordan Spinato
+CS 111
+Chapter 5- Page 216
+Exercise 18
+10/19/2013
+*/
+
+#include <iostream>
+using namespace std;
+
+// yearly amount available 
+
+int main()
+{
+
+
+  return 0;
+
+}

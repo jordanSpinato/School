@@ -1,0 +1,8 @@
+
+
+
+void test()
+{
+  cout << "This is a test";
+  return;
+}

@@ -1,0 +1,12 @@
+insert total 0
+insert normal 0
+insert perfect 1
+insert program 1
+insert book 2
+print
+insert perfect 5
+delete 1
+delete 7
+insert money 2
+delete 3
+print

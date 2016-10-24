@@ -1,0 +1,12 @@
+class TenureTrackProf
+{
+ protected:
+  char rank; // a- assistant prof   s- associate professor  f- full professor
+  int yearOfExp;// number of years the prof has been teaching in CS department
+
+
+ public:
+
+
+};
+  

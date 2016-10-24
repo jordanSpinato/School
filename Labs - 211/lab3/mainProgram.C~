@@ -1,0 +1,127 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+
+//****************************************
+// class Course
+//**********************************************
+class Course
+{
+public:
+
+  long CourseNum;
+  string CourseName;
+  Course();
+  Course(long,string);
+  
+};
+
+Course :: Course()
+{
+  CourseNum = CourseName = 0;
+}
+
+Course:: Course(long number, string name)
+{
+  CourseNum = number;
+  CourseName = name;
+
+}
+//*********************************************
+// student class
+//**********************************************
+
+class Student
+{
+public:
+
+  long StNo;
+  Course Course1;
+  Course Course2;
+  Course Course3;
+  Student();
+  Student(long,Course,Course,Course);
+};
+
+Student :: Student()
+{
+  StNo = Course1 = Course2 = Course3 = 0;
+}
+
+Student :: Student(long st, Course cor1, Course cor2, Course cor3)
+{
+  StNo = st;
+  Course1 = cor1;
+  Course2 = cor2;
+  Course3 = cor3;
+
+}
+
+
+//********************************************
+// person class
+//********************************************
+class Person
+{
+public:
+
+  long SSN;
+  string Fname;
+  string Lname;
+  int Age;
+  char Gender;
+  Person();
+  Person(long,string,string,int,char);
+
+};
+
+Person :: Person()
+{
+  SSN = Fname = Lname = Age = Gender = 0;
+}
+
+
+Person :: Person(long s, string fnam, string lnam, int ag, char gen)
+{
+  SSN = s;
+  Fname = fnam;
+  Lname = lnam;
+  Age = ag;
+  Gender = gen;
+
+  return;
+}
+
+
+
+//**********************************
+// class student profile
+//***********************************
+class StudentProfile
+
+{
+public:
+
+  Person PersonalInfo;
+  Student StdInfo;
+
+};
+
+
+
+
+int main()
+{
+
+  
+  StudentProfile StudentProfil;
+  vector<StudentPofil> StCollection;
+
+
+  return 0;
+}
+

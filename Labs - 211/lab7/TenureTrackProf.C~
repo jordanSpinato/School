@@ -1,0 +1,49 @@
+#ifndef TENURETRACKPROF_C
+#define TENURETRACKPROF_C
+
+#include <iostrema>
+#include <string>
+#include "TenureTrackProf.h"
+using namespace std;
+
+//------------- setter--------------------
+void TenureTrackProf :: getRank(char r)
+{
+  rank = r;
+
+  return;
+
+}
+
+void TenureTrackProf ::setYearExp(int year)
+{
+  yearOfExp = year;
+
+  return;
+
+}
+
+
+//------------ getter -----------------------
+
+char TenureTrackProf :: getRank()
+{
+  return rank;
+}
+
+int TenureTrackProf :: getYearExp()
+{
+  return yearOfExp;
+}
+
+
+
+
+
+
+
+
+
+
+
+#endif

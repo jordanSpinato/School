@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+#include "cell.h"
+
+
+Cell :: Cell()
+{
+  carrier= " ";
+  phoneNumber = " ";
+  cellColor = " "
+
+    cout << "in constructor";
+
+}
